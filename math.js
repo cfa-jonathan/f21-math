@@ -92,7 +92,7 @@ let randomNumber;
 // 12) Use the formula to generate a random number between 7 and 20 and
 //     store the result in "randomNumber"
 
-console.log('randomNumber:', randomNumber);
+console.log('random number:', randomNumber);
 
 // Greater than and greater than or equal to
 // With the > operator we can tell if one number is greater than the other number
@@ -133,17 +133,17 @@ let max;
 //     parameter values and store the result in "min"
 //     Parameter Values: -4, -3, 1, 2
 
-console.log('minimum value', min);
+console.log('minimum value:', min);
 
 // 18) Use the Math.max() function to get the maximum number from the following
 //     parameter values and store the result in "max"
 //     Parameter Values: -4, -3, 1, 2
 
-console.log('maximum value', max);
+console.log('maximum value:', max);
 
 // Square root
 // The Math.sqrt() function returns the square root of a number
 let sqrt;
 // 19) Use the Math.sqrt() function to get the square root of 36 and store the result in "sqrt"
 
-console.log('square root', sqrt);
+console.log('square root:', sqrt);
