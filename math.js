@@ -7,6 +7,7 @@
 // With the + operator we can add together two values and that these values happen to be numbers.
 let sum;
 // 1) Add 7 to 36 and store the sum in "sum"
+sum = 7 + 36;
 
 console.log('sum:', sum);
 
@@ -14,6 +15,7 @@ console.log('sum:', sum);
 // With the - operator we can subtract two numbers.
 let difference;
 // 2) Subtract 17 from 50 and store the difference in "difference"
+difference = 50 - 17;
 
 console.log('difference:', difference);
 
@@ -21,6 +23,7 @@ console.log('difference:', difference);
 // With the * operator we can multiply one number by another number.
 let product;
 // 3) Multiply 12 by 5 and store the product in "product"
+product = 12 * 5;
 
 console.log('product:', product);
 
@@ -28,6 +31,7 @@ console.log('product:', product);
 // With the / operator we can divide one number by another number.
 let quotient;
 // 4) Divide 10 by 2 and store the quotient in "quotient"
+quotient = 10 / 2;
 
 console.log('quotient:', quotient);
 
@@ -57,11 +61,41 @@ console.log('increment:', counter);
 
 console.log('decrement:', counter);
 
+// Greater than and greater than or equal to
+// With the > operator we can tell if one number is greater than the other number
+// With the >= operator we can tell if one number is greater or equal to the other number
+let greaterThan;
+let greaterThanOrEqual;
+// 9) Use the > operator to compare if 10 is greater than 20 and store the
+//     result in "greaterThan"
+
+console.log('10 is greater than 20:', greaterThan);
+
+// 10) Use the >= operator to compare if 10 is greater than or equal to 10 and store the
+//     result in "greaterThanOrEqual"
+
+console.log('10 is greater than or equal to 10:', greaterThanOrEqual);
+
+// Less than and less than or equal to
+// With the < operator we can tell if one number is less than the other number
+// With the <= operator we can tell if one number is less or equal to the other number
+let lessThan;
+let lessThanOrEqual;
+// 11) Use the < operator to compare if 10 is less than 20 and store the
+//     result in "lessThan"
+
+console.log('10 is less than 20:', lessThan);
+
+// 12) Use the <= operator to compare if 10 is less than or equal to 10 and store the
+//     result in "lessThanOrEqual"
+
+console.log('10 is less than or equal to 10:', lessThanOrEqual);
+
 // Absolute Value
 // With the Math.abs() method we can get the absolute value of a number.
 let negative = -295;
 let positive;
-// 9) Use the Math.abs() method to get the absolute value of "negative"
+// 13) Use the Math.abs() method to get the absolute value of "negative"
 //    and store the result in the "positive" variable
 
 console.log('absolute value applied:', positive);
@@ -72,12 +106,12 @@ console.log('absolute value applied:', positive);
 let original = 33.7;
 let roundedUp;
 let roundedDown;
-// 10) Use the Math.ceil() method to round "original" up to 34 and store
+// 14) Use the Math.ceil() method to round "original" up to 34 and store
 //     the result in "roundedUp"
 
 console.log('rounded up:', roundedUp);
 
-// 11) Use the Math.floor() method to round "original" down to 33 and store
+// 15) Use the Math.floor() method to round "original" down to 33 and store
 //     the result in "roundedDown"
 
 console.log('rounded down:', roundedDown);
@@ -86,43 +120,14 @@ console.log('rounded down:', roundedDown);
 // With the Math.random() method we can generate a random number.
 // Math.random() returns a number between 0 (inclusive) and 1 (exclusive).
 // 
-// We can use the following formula to get a random whole number:
-// Math.floor( Math.random() * (max - min) ) +  min
+// We can use the following formula to get a random whole number between
+//   the "min" and "max" values, including both "min" and "max" values:
+// Math.floor( Math.random() * (max - min + 1) ) +  min
 let randomNumber;
-// 12) Use the formula to generate a random number between 7 and 20 and
+// 16) Use the formula to generate a random number between 7 and 20 and
 //     store the result in "randomNumber"
 
 console.log('random number:', randomNumber);
-
-// Greater than and greater than or equal to
-// With the > operator we can tell if one number is greater than the other number
-// With the >= operator we can tell if one number is greater or equal to the other number
-let greaterThan;
-let greaterThanOrEqual;
-// 13) Use the > operator to compare if 10 is greater than 20 and store the
-//     result in "greaterThan"
-
-console.log('10 is greater than 20:', greaterThan);
-
-// 14) Use the >= operator to compare if 10 is greater than or equal to 10 and store the
-//     result in "greaterThanOrEqual"
-
-console.log('10 is greater than or equal to 10:', greaterThanOrEqual);
-
-// Less than and less than or equal to
-// With the < operator we can tell if one number is less than the other number
-// With the <= operator we can tell if one number is less or equal to the other number
-let lessThan;
-let lessThanOrEqual;
-// 15) Use the < operator to compare if 10 is less than 20 and store the
-//     result in "lessThan"
-
-console.log('10 is less than 20:', lessThan);
-
-// 16) Use the <= operator to compare if 10 is less than or equal to 10 and store the
-//     result in "lessThanOrEqual"
-
-console.log('10 is less than or equal to 10:', lessThanOrEqual);
 
 // Min and Max
 // Math.min() returns the lowest-valued number passed into it, or NaN if any parameter isn't a number and can't be converted into one.
